@@ -57,7 +57,7 @@ def parse_options(runs):
 
     options = []
     pos = 0
-    option_pattern = re.compile(r"^([A-F])\)\s*(.+)", re.DOTALL)
+    option_pattern = re.compile(r"^([A-G])\)\s*(.+)", re.DOTALL)
 
     for line in lines:
         stripped = line.strip()
